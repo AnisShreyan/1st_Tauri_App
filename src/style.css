@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container {
+  margin: 0;
+  /* padding-top: 10vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+img{
+  height: 500px;
+  /* width: 400px; */
+  align-self: center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+input,
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #0f0f0f;
+  background-color: #ffffff;
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  align-self: center;
+}
+
+button:hover {
+  border-color: #396cd8;
+}
+
+input,
+button {
+  outline: none;
+}
